@@ -3,6 +3,11 @@
 	font-family: 'FonteLogo';
 	src: url("../_fonts/bubblegum-sans-regular.otf");
 }
+
+@font-face{
+	font-family: 'FonteLogoDois';
+	src: url("../_fonts/computer-font.otf");
+}
 body{
 	background-color: #dddddd;
 	color: rgba(0, 0, 0, 1);
@@ -44,6 +49,7 @@ header#cabecalho h2{
 	margin-top: 0px;
 }
 
+
 						/* Formatação da Interface */
 
 div#interface{
@@ -51,7 +57,7 @@ div#interface{
 	background-color: #ffffff;
 	margin: -20px auto 10px auto;
 	box-shadow:  0px 0px 10px rgba(0, 0, 0, .5);
-	padding: 10px;
+	padding: 20px;
 }
 
 						/* Formatação de Imagens com Legendas*/
@@ -192,6 +198,8 @@ aside#lateral{
 	width: 300px;
 	float: right;
 }
+
+
 
 footer#rodape{
 	clear: both;
